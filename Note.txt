@@ -2,21 +2,74 @@
 
 i
 
-2. To escape
+2. To escape:
 
 Esc
 
-3. To delete all line 
+3. To delete all line: 
 
 Esc + dd
 
-4. To delete one letter
+4. To delete one letter:
 
 Esc + shift + d
 
-5. To quit
+5. To quit:
 
-:q! + Enter
+Esc + :q! + Enter
+
+6. Blanks line:
+
+~ (till sign)
+
+7. To save a file:
+
+Esc + :w
+
+8. To quit out of editor file: 
+
+Esc + :q
+
+9. To quit out of editor without saving file:
+
+Esc + :q!
+
+10: To save file and quit editor:
+
+Esc + :wq
+
+11. To save the work in the file and without quiting editor:
+
+Esc + :w!
+
+11: White space:
+
+No character
+
+12. To save as in new file:
+
+Esc + w <new file name>
+
+13. To search for occurences of text in file in forward mode:
+
+:/text 
+
+n
+
+14.  To search for occurences of text in file in backward mode:
+
+?text
+
+N
+
+15. To view line number:
+
+Esc + :set nu
+
+16. To Open line above:
+
+O
+
 
 #Useful Vi Editor Commands
 
@@ -73,4 +126,4 @@ ctrl + v + x --> uncomment selected lines
 :s/search_word//gn --> count number of occurences of search_word in current line
 :color blue --> changes vim color scheme to blue theme
 :color default --> default vim color scheme to default theme
-/usr/bin/bash: line 1: wq: command not found
+ctrl + shift + o (ctrl + O) --> return to previous location. Think "original" for O.
